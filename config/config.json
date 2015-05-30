@@ -1,0 +1,15 @@
+{
+	"port": 7777,
+	"mongoose": {
+		"uri": "mongodb://localhost/gtu-test-db",
+		"options": {
+			"server": {
+				"socketOptions": {
+					"keepAlive": 1
+				}
+			}
+		}
+	},
+	"tokenSecret": "token-secret-value",
+	"adminMail": "l.kancheli93@gmail.com"
+}
